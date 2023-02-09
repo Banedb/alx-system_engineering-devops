@@ -3,5 +3,5 @@ ls displays list of contents in current directory
 cd returns user to home directory
 ls -l details contents of directory
 ls -al details contents of all files including hidden ones
-ls -lnar details  user id and group ID numerically
-mkdir my_first_directory /tmp/ creates a directory called my_first_directory in the tmp subdirectory of the root directory
+ls -lna details  user id and group ID numerically
+mkdir /tmp/my_first_directory creates a directory called my_first_directory in the tmp subdirectory of the root directory
