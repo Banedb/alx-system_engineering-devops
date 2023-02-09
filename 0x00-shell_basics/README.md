@@ -7,3 +7,4 @@ ls -lna details  user id and group ID numerically
 mkdir /tmp/my_first_directory creates a directory called my_first_directory in the tmp subdirectory of the root directory
 mv /tmp/betty /tmp/my_first_directory moves the file betty from the tmp directory to a subdirectory within tmp, my_first_directory.
 rm /tmp/my_first_directory/betty deletes the file betty
+rm -r /tmp/my_first_directory deletes my_first_directory directory
