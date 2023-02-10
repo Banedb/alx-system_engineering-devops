@@ -8,3 +8,4 @@
 'chmod ugo+x hello' gives execution permission of hello to the owner, the group owner and the other users
 'chmod 753 hello' gives all permissions to owner, read and execute permission to group owners and write and execute permission to others
 'chmod -- reference=olleh hello' mirrors the file olleh's permission settings on hello
+'chmod -R ugo+x' gives execution permission to all subdirectories of current directory to the owner, group and other users
