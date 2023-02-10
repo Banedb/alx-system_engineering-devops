@@ -14,3 +14,4 @@
 'chown vincent:school *' changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 'chown -h vincent:staff _hello' changes the owner and the group owner of _hello to vincent and staff respectively
 'chown --from=guillaume betty hello' changes the owner of the file hello to betty only if it is owned by the user guillaume
+'telnet towel.blinkenlights.nl' plays the StarWars IV episode in the terminal
