@@ -12,3 +12,4 @@
 'mkdir -m751 my_dir' creates a new directory my_dir with permissions 751
 'chgrp school hello' changes group owner for the file hello to school
 'chown vincent:school *' changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+'chown -h vincent:staff _hello' changes the owner and the group owner of _hello to vincent and staff respectively
