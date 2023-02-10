@@ -10,3 +10,4 @@
 'chmod -- reference=olleh hello' mirrors the file olleh's permission settings on hello
 'chmod -R ugo+x' gives execution permission to all subdirectories of current directory to the owner, group and other users
 'mkdir -m751 my_dir' creates a new directory my_dir with permissions 751
+'chgrp school hello' changes group owner for the file hello to school
