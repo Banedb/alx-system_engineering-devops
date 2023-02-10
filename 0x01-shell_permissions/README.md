@@ -7,3 +7,4 @@
 'chmod ug+x,o+r hello' adds execute permission to the owner and the group owner of the file hello, and read permission to other users
 'chmod ugo+x hello' gives execution permission of hello to the owner, the group owner and the other users
 'chmod 753 hello' gives all permissions to owner, read and execute permission to group owners and write and execute permission to others
+'chmod -- reference=olleh hello' mirrors the file olleh's permission settings on hello
