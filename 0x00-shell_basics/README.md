@@ -14,3 +14,4 @@ file iamafile returns the type of file that iamafile is
 cp -u *.html .. copies all HTML files newer than or  not in parent directory to it from the working directory
 ln -s /bin/ls __ls__ creates a symbolic link to /bin/ls
 'mv [[:upper:]]* /tmp/u' moves all filenames starting with uppercase to the subdirectory /tmp/u
+'rm *~' removes all files ending with ~ in the current working directory
