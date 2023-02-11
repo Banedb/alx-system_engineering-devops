@@ -16,3 +16,4 @@ ln -s /bin/ls __ls__ creates a symbolic link to /bin/ls
 'mv [[:upper:]]* /tmp/u' moves all filenames starting with uppercase to the subdirectory /tmp/u
 'rm *~' removes all files ending with ~ in the current working directory
 'mkdir {welcome/, welcome/to/,welcome/to/school}' makes the 3 directories respectively
+'ls -amp' lists all files and directories of current directory in sorted order
