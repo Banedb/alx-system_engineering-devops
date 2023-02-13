@@ -1,3 +1,5 @@
-echo 'Hello, World' prints “Hello, World”, followed by a new line to the standard output.
-echo '"(Ôo)'' displays a confused smiley "(Ôo)'.
+| Filename | Description |
+| --- | --- |
+| 0-hello_world | prints “Hello, World”, followed by a new line to the standard output
+1-confused_smiley |  displays a confused smiley "(Ôo)'
 
