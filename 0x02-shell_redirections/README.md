@@ -15,4 +15,5 @@
 `11-directories` | counts the number of directories and sub-directories in the current directory
 `12-newest_files` | creates a script that displays the 10 newest files in the current directory
 `13-unique` | creates a script that takes a list of words as input and prints only words that appear exactly once
-`14-findthatword` | lines containing the pattern `root` from the fil\e `/etc/passwd`
+`14-findthatword` | lines containing the pattern `root` from the file `/etc/passwd`
+`15-countthatword` | displays the number of lines that contain the pattern `bin` in the file `/etc/passwd`
