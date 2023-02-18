@@ -11,12 +11,12 @@
 | `8-firstdelete` | deletes the file betty
 | `9-firstdirdeletion` | deletes my_first_directory directory
 | `10-back` | reverts working directory to previous one
-| `` | details multiple files including hidden files
+| `11-lists` | details multiple files including hidden files
 | `12-file_type` | returns the type of file that iamafile is
 | `13-symbolic_link` | copies all HTML files newer than or  not in parent directory to it from the working directory
 | `14-copy_html` | creates a symbolic link to /bin/ls
 | `100-lets_move` | moves all filenames starting with uppercase to the subdirectory /tmp/u
 | `101-clean_emacs` | removes all files ending with ~ in the current working directory
-| `` | makes the 3 directories respectively
-| `` | lists all files and directories of current directory in sorted order
+| `102-tree` | makes the 3 directories respectively
+| `103-commas` | lists all files and directories of current directory in sorted order
 
