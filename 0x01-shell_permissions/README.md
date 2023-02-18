@@ -1,10 +1,10 @@
 | Filename | Description |
 | --- | --- |
-| 0-iam_betty | changes the user to betty
-'whoami' prints current user name
-'groups' prints all the groups the current user is part of
-'chown betty hello' changes ownership of hello to betty
-'touch hello' creates an empty file hello
+| `0-iam_betty` | changes the user to betty
+| `` | prints current user name
+| `2-groups` | prints all the groups the current user is part of
+| `3-new_owner` | changes ownership of hello to betty
+| `4-empty` | creates an empty file hello
 'chmod u+x helloo' grants execute permission to owner of the file hello
 'chmod ug+x,o+r hello' adds execute permission to the owner and the group owner of the file hello, and read permission to other users
 'chmod ugo+x hello' gives execution permission of hello to the owner, the group owner and the other users
