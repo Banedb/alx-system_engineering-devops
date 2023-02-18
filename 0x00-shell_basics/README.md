@@ -1,9 +1,11 @@
+# 
+
 | `` | prints the absolute path of the current working directory
-| `` | displays list of contents in current directory
-| `` | returns user to home directory
-| `` | details contents of directory
-| `` | details contents of all files including hidden ones
-| `` | details  user id and group ID numerically
+| `1-listit` | displays list of contents in current directory
+| `2-bring_me_home` | returns user to home directory
+| `3-listfiles` | details contents of directory
+| `4-listmorefiles` | details contents of all files including hidden ones
+| `5-listfilesdigitonly` | details  user id and group ID numerically
 | `` | creates a directory called my_first_directory in the tmp subdirectory of the root directory
 | `` | moves the file betty from the tmp directory to a subdirectory within tmp, my_first_directory
 | `` | deletes the file betty
