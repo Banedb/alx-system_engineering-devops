@@ -1,5 +1,7 @@
 # 0x00-shell_basics
 
+| Filename | Description |
+| --- | --- |
 | `0-current_working_directory` | prints the absolute path of the current working directory
 | `1-listit` | displays list of contents in current directory
 | `2-bring_me_home` | returns user to home directory
