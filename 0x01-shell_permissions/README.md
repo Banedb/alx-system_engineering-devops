@@ -1,7 +1,7 @@
 | Filename | Description |
 | --- | --- |
 | `0-iam_betty` | changes the user to betty
-| `` | prints current user name
+| `1-who_am_i` | prints current user name
 | `2-groups` | prints all the groups the current user is part of
 | `3-new_owner` | changes ownership of hello to betty
 | `4-empty` | creates an empty file hello
@@ -13,7 +13,7 @@
 'chmod -R ugo+x' gives execution permission to all subdirectories of current directory to the owner, group and other users
 'mkdir -m751 my_dir' creates a new directory my_dir with permissions 751
 'chgrp school hello' changes group owner for the file hello to school
-'chown vincent:school *' changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
-'chown -h vincent:staff _hello' changes the owner and the group owner of _hello to vincent and staff respectively
-'chown --from=guillaume betty hello' changes the owner of the file hello to betty only if it is owned by the user guillaume
-'telnet towel.blinkenlights.nl' plays the StarWars IV episode in the terminal
+'chown vincent:school  changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+| `101-symbolic_link_permissions` | changes the owner and the group owner of _hello to vincent and staff respectively
+| `102-if_only` | changes the owner of the file hello to betty only if it is owned by the user guillaume
+| `103-Star_Wars` | plays the StarWars IV episode in the terminal
