@@ -1,19 +1,19 @@
-pwd prints the absolute path of the current working directory
-ls displays list of contents in current directory
-cd returns user to home directory
-ls -l details contents of directory
-ls -al details contents of all files including hidden ones
-ls -lna details  user id and group ID numerically
-mkdir /tmp/my_first_directory creates a directory called my_first_directory in the tmp subdirectory of the root directory
-mv /tmp/betty /tmp/my_first_directory moves the file betty from the tmp directory to a subdirectory within tmp, my_first_directory.
-rm /tmp/my_first_directory/betty deletes the file betty
-rm -r /tmp/my_first_directory deletes my_first_directory directory
-cd - reverts working directory to previous one
-ls -al . .. /boot details multiple files including hidden files
-file iamafile returns the type of file that iamafile is
-cp -u *.html .. copies all HTML files newer than or  not in parent directory to it from the working directory
-ln -s /bin/ls __ls__ creates a symbolic link to /bin/ls
-'mv [[:upper:]]* /tmp/u' moves all filenames starting with uppercase to the subdirectory /tmp/u
-'rm *~' removes all files ending with ~ in the current working directory
-'mkdir {welcome/, welcome/to/,welcome/to/school}' makes the 3 directories respectively
-'ls -amp' lists all files and directories of current directory in sorted order
+| `` | prints the absolute path of the current working directory
+| `` | displays list of contents in current directory
+| `` | returns user to home directory
+| `` | details contents of directory
+| `` | details contents of all files including hidden ones
+| `` | details  user id and group ID numerically
+| `` | creates a directory called my_first_directory in the tmp subdirectory of the root directory
+| `` | moves the file betty from the tmp directory to a subdirectory within tmp, my_first_directory
+| `` | deletes the file betty
+| `` | deletes my_first_directory directory
+| `` | reverts working directory to previous one
+| `` | details multiple files including hidden files
+| `` | returns the type of file that iamafile is
+| `` | copies all HTML files newer than or  not in parent directory to it from the working directory
+| `` | creates a symbolic link to /bin/ls
+| `` | moves all filenames starting with uppercase to the subdirectory /tmp/u
+| `` | removes all files ending with ~ in the current working directory
+| `` | makes the 3 directories respectively
+| `` | lists all files and directories of current directory in sorted order
