@@ -1,4 +1,4 @@
-# 
+# 0x00-shell_basics
 
 | `0-current_working_directory` | prints the absolute path of the current working directory
 | `1-listit` | displays list of contents in current directory
@@ -10,7 +10,7 @@
 | `7-movethatfile` | moves the file betty from the tmp directory to a subdirectory within tmp, my_first_directory
 | `8-firstdelete` | deletes the file betty
 | `9-firstdirdeletion` | deletes my_first_directory directory
-| `` | reverts working directory to previous one
+| `10-back` | reverts working directory to previous one
 | `` | details multiple files including hidden files
 | `` | returns the type of file that iamafile is
 | `` | copies all HTML files newer than or  not in parent directory to it from the working directory
