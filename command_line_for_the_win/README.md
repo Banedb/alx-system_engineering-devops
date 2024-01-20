@@ -1,6 +1,6 @@
-#Command line for the win
+# Command line for the win
 
-##STEPS TO USE THE SFTP CL TOOL
+## STEPS TO USE THE SFTP CL TOOL
 1. `cd` to dir containing the screenshots in local system
 2. validate the functionality of the sftp by first using ssh
 3. `sftp <remote-username>@<remote-host-id>`
