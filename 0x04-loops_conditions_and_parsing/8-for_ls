@@ -1,1 +1,6 @@
 #!/usr/bin/env bash
+# displays content of current directory in list format
+dir=$(ls)
+for i in $dir; do
+    echo "${i#*-}"
+done
