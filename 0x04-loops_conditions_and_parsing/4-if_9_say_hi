@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# Writes Best School 10× and a "hi" after 9th itr with a while loop
+counter=1
+while [[ $counter -le 10 ]]; do
+    echo "Best School"
+    if [[ $counter -eq 9 ]]; then
+	echo "Hi"
+    fi
+    ((counter++))
+done
