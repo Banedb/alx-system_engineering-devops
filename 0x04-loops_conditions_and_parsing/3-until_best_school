@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Writes Best School 10× with an until loop
+counter=1
+until [[ $counter -gt 10 ]]; do
+    echo "Best School"
+    ((counter++))
+done
