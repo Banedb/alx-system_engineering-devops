@@ -1,1 +1,14 @@
 #!/usr/bin/env bash
+# reads abd cuts the file /etc/passwd
+file="/etc/passwd"
+# check if file exists
+if [[ -e "$file" ]]; then
+    while IFS= read -r line; do
+	echo "$line" | cut -d":" -f1,3,6
+    done < "$file"
+fi
+# ALTERNATIVELY:
+# if [[ -e $file ]]; then
+#     while IFS=: read -r username _ uid _ _ home _; do
+# 	echo "$username:$uid:$home"
+#     done < $file
