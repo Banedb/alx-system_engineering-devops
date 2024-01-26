@@ -2,9 +2,8 @@
 # bash (init) script to manage subscript manage_my_proccess
 if [[ "x$1" == "xstart" ]]; then
     ./manage_my_process &
-    # mmpd=$(pgrep -f ./manage_my_process)
-    # echo "$mmpd" > "/var/run/my_process.pid"
-    echo "$$" > "/var/run/my_process.pid"
+    mmpd=$(pgrep -f ./manage_my_process)
+    echo "$mmpd" > "/var/run/my_process.pid"
     echo "manage_my_process started"
 elif [[ "x$1" == "xstop" ]]; then
     pkill -f ./manage_my_process
@@ -19,9 +18,8 @@ elif [[ "x$1" == "xrestart" ]]; then
     fi
     ./manage_my_process &
     mkdir -p "/var/run/"
-    # mmpd=$(pgrep -f ./manage_my_process)
-    # echo "$mmpd" > "/var/run/my_process.pid"
-    echo "$$" > "/var/run/my_process.pid"
+    mmpd=$(pgrep -f ./manage_my_process)
+    echo "$mmpd" > "/var/run/my_process.pid"
     echo "manage_my_process restarted"
 else
     echo "Usage: manage_my_process {start|stop|restart}"
