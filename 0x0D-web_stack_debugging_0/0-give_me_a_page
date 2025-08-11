@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# configure Apache and start it inside the container
+# Configure and start Apache in container, then output status message
 
-echo "ServerName localhost" >> /etc/apache2.conf
+echo "ServerName localhost" >> /etc/apache2/apache2.conf
+echo "Hello ALX" > /var/www/html/index.html
 service apache2 start
+echo "apache2 is running"
