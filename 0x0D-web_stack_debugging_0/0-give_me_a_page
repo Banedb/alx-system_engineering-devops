@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # configure Apache and start it inside the container
-
 service apache2 start
