@@ -4,5 +4,5 @@ echo "ServerName localhost" >> /etc/apache2/apache2.conf
 service apache2 start
 {
   echo "Hello ALX"
-  echo "apache2 is running"
+  echo '["apache2 is running"]'
 } > /var/www/html/index.html
