@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 sed -i 's/listen 8080 default_server/listen 80 default_server/' /etc/nginx/sites-enabled/default
-sudo -s nginx reload
+sudo pkill nginx
+sudo nginx
